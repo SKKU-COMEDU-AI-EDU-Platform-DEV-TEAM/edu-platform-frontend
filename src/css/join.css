@@ -1,48 +1,5 @@
-a{
-    text-decoration: none;
-}
-p{
-    font-size: 22px;
-}
-input{
-    margin-bottom: 15px;
-    border-radius: 2rem;
-    width: 550px;
-    height: 55px;
-    border: 2px solid #789ADE;
-    outline: none;
-    padding-left: 20px;
-    color:#789ADE;
-    font-size: 23px;
-
-}
-
-input[type="password"] {
-    font-family: Verdana;
-    font-size: 28px;
-}
-label{
-    font-size: 25px;
-    margin: 5px;
-    text-transform: capitalize;
-    
-}
-input[type="submit"]{
-    margin-top: 60px;
-    color: whitesmoke;
-    background-color: #6176F7;
-    border:none;
-    padding-left:0;
-    text-transform: capitalize;
-}
 center{
     margin: 50px;
-    
-}
-
-h1{
-  font-family: 'Jua', sans-serif;
-  text-transform: capitalize;
 }
 .styledSelect__value-container{
     height: 55px;

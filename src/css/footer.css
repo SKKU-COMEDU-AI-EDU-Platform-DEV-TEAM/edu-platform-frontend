@@ -6,8 +6,7 @@ img{
 	grid-template-columns: 1fr 4fr 1fr;
 }
 .img{
-	margin-left: 70px;
-	margin-right: 10px;
+	margin:20px 10px 0px 70px;
 }
 .copyright *{
 	margin: 0px;

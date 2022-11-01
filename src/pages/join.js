@@ -1,5 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "../css/join.css"
+import "../css/input.css"
+
 import { useState } from 'react';
 import Select from "react-select";
 import styled from 'styled-components';
@@ -22,7 +23,7 @@ const Join = () => {
     return (
         <center>
             <h1>Create Account</h1>
-            <p>Already have an account? <a href=".">Log in</a></p>
+            <p>Already have an account? <a href="login">Log in</a></p>
             <form action="/">
                 
                 <label htmlFor="username">Username</label><br/>
