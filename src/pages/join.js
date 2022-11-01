@@ -3,7 +3,9 @@ import "../css/input.css"
 
 import { useState } from 'react';
 import Select from "react-select";
+import styled from 'styled-components';
 const Join = () => {
+    const StyledSelect = styled(Select)`width: 550px;`
     const [value, setValue] = useState("선택");
     const options = [
         { value: "선택", label: "선택", isDisabled: true },
@@ -37,7 +39,7 @@ const Join = () => {
                 <input type="password" id="password-confirm" name="password-confirm"/><br/>
                 
                 <label htmlFor="major">Major</label><br/>
-                <Select className="styledSelect"
+                <StyledSelect classNamePrefix="styledSelect"
                     options={options}
                     onChange={handleTypeSelect}
                     value={options.filter(function(option) {
