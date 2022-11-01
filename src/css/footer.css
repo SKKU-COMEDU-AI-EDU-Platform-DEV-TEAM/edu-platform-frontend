@@ -1,0 +1,18 @@
+img{
+	width: 184px;
+}
+.wrapper{
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+}
+.img{
+	margin-left: 70px;
+	margin-right: 10px;
+}
+.copyright *{
+	margin: 0px;
+}
+footer{
+	border-top:1px solid #6176F7;
+	padding: 15px;
+}

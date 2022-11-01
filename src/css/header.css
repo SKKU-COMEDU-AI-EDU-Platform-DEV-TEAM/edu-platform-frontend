@@ -1,0 +1,15 @@
+header{
+    padding: 7px 30px 5px 30px ;
+    font-size: 20px;
+    border-bottom: 1px solid #6176F7;
+}
+.nav-link {
+    margin-left: 40px;
+}
+.nav :last-child{
+    color:black;
+    font-weight:bold;
+}
+.nav :last-child:hover{
+    color:#6176F7
+}
